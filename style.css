@@ -23,6 +23,15 @@ body{
     max-height: 90vh;
     
 }
+footer{
+    background-color: #0B0D17;
+}
+
+footer small{
+    text-align: center;
+    color: #fff;
+    
+}
 @media (max-width:800px) {
     .carousel-item{
         height: 70vh;
