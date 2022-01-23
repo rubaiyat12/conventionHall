@@ -14,43 +14,286 @@
 </head>
 
 <body>
+
+    
     <!-- header part -->
+    
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <!-- nav part -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
             <div class="container">
-               <h4>Spectra Convention Hall</h4>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">
+                    <h4>Convention Center</h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
-
+        
+                    </ul>
+        
                 </div>
             </div>
         </nav>
 
+
+        <!-- slider-part -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner pt-5 rounded-3">
+                <div class="carousel-item active">
+                    <img src="images/banner.png" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-block mb-4">
+                        <h2 class="text-center">The perfect venue for your </h2>
+                        <h2 class="text-center mt-0">
+                            next event
+                        </h2>
+        
+                        <p>Some representative placeholder content for the first slide.</p>
+        
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/6.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block mb-4">
+                        <h2 class="text-center">The perfect venue for your </h2>
+                        <h2 class="text-center mt-0">
+                            next event
+                        </h2>
+        
+                        <p>Some representative placeholder content for the first slide.</p>
+        
+                        <a href="#" class="btn btn-primary">BOOK NOW</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/7.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block mb-4">
+                        <h2 class="text-center">The perfect venue for your </h2>
+                        <h2 class="text-center mt-0">
+                            next event
+                        </h2>
+        
+                        <p>Some representative placeholder content for the first slide.</p>
+        
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+        
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        
+        
+        </header>
+        
+        <!-- main part -->
+        <main>
+        
+            <section>
+                <div class="container">
+                    <div class="pricious-section py-5">
+                        <div class="row align-items-center g-5">
+                            <div class="col-md-6 order-sm-1 order-2">
+                                <div>
+                                    <img class="img-fluid" src="images/wedding.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6 order-sm-2 order-1 position-relative">
+                                <h2>Every moment is Precious</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sequi laboriosam obcaecati iusto
+                                    ad earum consectetur corporis natus iste repellat?</p>
+                                <a href="#" class="btn btn-primary">Explore our album</a>
+        
+        
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </section>
        
 
+        <!-- MY self Part -->
+
+        <section class="container">
+            <h1 class="text-center">A Grand Feast</h1>
+            <p class="m-4">Are you running out of wedding food ideas? One of the most difficult decisions you’ll have to make during the wedding
+            planning process is the wedding reception menu. The most important thing, of course, is to</p>
+            <div class="card-group">
+            <div class="card border-0 shadow p-3 mb-5 bg-body rounded mx-2" >
+                <img src="images/food2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Collect ideas from family members. Another way to create a fantastic menu is to solicit ideas from each of your
+                families. Check to see if you have any special family recipes</p>
+                    
+                    </div>
+                    
+                
+            </div>
+                <div class="card border-0 shadow p-3 mb-5 bg-body rounded mx-2">
+                    <img src="images/food.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> you’d like to include in the menu.
+                        Finally, solicit suggestions from your guests. Send options in your wedding invitations and then choose the ones that
+                        received the most votes.</p>
+                    </div>
+                </div>
+                <div class="card border-0 shadow p-3 mb-5 bg-body rounded mx-2">
+                    <img src="images/food3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Add a personal touch to your wedding food. Simply provide your caterer with a list of your and your sweetheart’s
+                        favorite foods.
+                            </p>
+                    </div>
+                </div>
+                
+                </div>
+            
+        </section>
+
+        <!-- accordion part -->
+        <section>
+            <div class="container">
+                <div class="pricious-section py-5">
+                    <div class="row align-items-center g-5 order-sm-1 order-2">
+                        <div class="col-lg-6">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            What’s the difference between event design and
+                                            event planning?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Event design and event planning work hand in hand to deliver a
+                                            successful event.Events by Knight offer tailor made events. This
+                                            means we incorporate both event design and event planning to
+                                            create that perfect event.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            How early do we need to start planning an event
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>An event planning timeline is a checklist, in chronological order, of all the stages and steps involved in planning an
+                                            event. It's a long-term event timeline that accounts for up to 12 months of lead-in time prior to an event taking place</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            What is your refund and cancellation policy?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Refund/cancellation policies applicable in the following conditions: a) In case, the buyer cancels the order online
+                                            before the product has been shipped, the entire order amount will be refunded. ... Total order amount after deduction of
+                                            shipment and handling charges will be refunded</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            How do you keep budgets on track?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Traditionally, the bride and her family are responsible for paying for all wedding planning expenses, the bride's
+                                            attire, all floral arrangements, transportation on the wedding day, photo and video fees, travel and lodgings for the
+                                            officiant if he comes from out of town, lodging for the bridesmaids
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        
+        
+        
+        
+                        
+                        <div class="col-lg-6 order-sm-2 order-1 ">
+                            <div>
+                                <img class="img-fluid" src="images/people.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        </main>
 
 
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+
+
+
+        </div>
+
+       
+
+<!-- script-part -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script> -->
+        crossorigin="anonymous"></script> 
+
+        <!-- font-awsome script part -->
+        <script src="https://kit.fontawesome.com/e27185bc14.js" crossorigin="anonymous"></script>
 
 </body>
 
